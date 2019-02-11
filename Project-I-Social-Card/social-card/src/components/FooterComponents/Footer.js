@@ -4,7 +4,10 @@ import './Footer.css';
 const Footer = () => {
   return (
     <div class='footer'>
-      <h1>test</h1>
+      <i class="far fa-comment"></i>
+      <i class="fas fa-sync"></i>
+      <i class="far fa-heart"></i>
+      <i class="far fa-envelope"></i>
     </div>
   );
 };

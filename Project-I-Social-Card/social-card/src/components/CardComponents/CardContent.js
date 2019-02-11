@@ -1,13 +1,17 @@
 import React from 'react';
 import './Card.css';
 
-import Header from './components/HeaderComponents/HeaderContainer.js';
+import HeaderContainer from '../src/components/HeaderComponents/HeaderContainer.js';
 import CardBanner from './CardBanner.js';
+import Footer from '../src/components/FooterComponents/Footer.js';
+
 
 const CardContent = () => {
   return (
-    <div class='card'>
-      <Header />
+    <div>
+      <HeaderContainer />
+      <CardBanner />
+      <Footer />
     </div>
   );
 };
