@@ -8,7 +8,6 @@ const CardContent = () => {
   return (
     <div class='card'>
       <Header />
-      <CardBanner />
     </div>
   );
 };
