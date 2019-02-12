@@ -4,7 +4,7 @@ import './Header.css';
 const HeaderContent = () => {
   return (
     <div>
-      <img src='#'>
+      <img src='#' alt='#'></img>
     </div>
   );
 };
